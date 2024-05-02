@@ -26,6 +26,7 @@ testadd2 = musicLib[musicLib['track_name'] == 'the way you look tonight']
 
 
 myPlayList = []
+#to add to the play list we must use extend, and change dataframe record to a dictionary
 myPlayList.extend(testadd.to_dict(orient='records'))
 myPlayList.extend(testadd.to_dict(orient='records'))
 myPlayList.extend(testadd.to_dict(orient='records'))
