@@ -33,7 +33,7 @@ myPlayList.extend(testadd.to_dict(orient='records'))
 myPlayList.extend(testadd2.to_dict(orient='records'))
 
 #to get the song you want you must use index number of that song as shown below(Note: this will show the whole song valuables).
-#if you want to only print the track name of the song you just write myPlayList[0]['track_name], where the second square brackets [] will indicate the key values of the song dictionary
+#if you want to only print the track name of the song you just write myPlayList[0]['track_name'], where the second square brackets [] will indicate the key values of the song dictionary
 print(myPlayList[0])
 
 #This is how you iterate through the playlist and print the values of each song
