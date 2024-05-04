@@ -1,4 +1,7 @@
 # Music Recommendation Project
+
+![Logo](Music_Recomandation_ٍSystem.png)
+
 This Python project utilizes a dataset (tcc_ceds_music.csv) containing information about various music tracks, including artist name, track name, release date, genre, lyrics, and more. The project aims to provide music recommendations based on user preferences such as genre, topic, and release date range.
 
 ## Dataset Overview
@@ -31,8 +34,9 @@ This function creates a random playlist based on user preferences, adding songs 
 ### 6. delet(myPlayList)
 This function allows the user to delete a song from their playlist.
 
-### 7. show(myPlayList)
-This function displays the tracks in the user's playlist, showing the track name and artist name.
+### 7. add_random_music(playList)
+Adds random music to the playlist based on the user's existing playlist.
 
 ## Usage
 To use the project, simply run the provided functions with your desired inputs. For example, you can filter records, add songs to your playlist, and manage your playlist easily.
+
